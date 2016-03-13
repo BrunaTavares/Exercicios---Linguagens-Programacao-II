@@ -12,12 +12,13 @@ and open the template in the editor.
     </head>
     <body>
         <form>
-            <label>Nome:  <input type="text" name="nome " value="Nome Completo" required/><br/></label>
-            <label>Email:  <input name="email" type="email" value=""required/><br/></label>
-            <label>Endereço: <input type="text" name="endereco" value="Endereço com complemento" required/><br/></label>
-            <label>CEP: <input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}"/><br/></label>
+            <label>Nome<br></label><input type="text" name="nome " required/><br/><br>
+            <label>Email<br></label><input name="email" type="email" required/><br/><br/>
+            <label>Telefone<br></label><input type="text" name="tel" maxlength="14"><br/><br/>
+            <label>Endereço<br></label><input type="text" name="endereco" required/><br/><br/>
+            <label>CEP<br></label><input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}"/><br/><br/>
             <button name="buttonEnviar" value="Enviar" type="submit">
-                <img src="http://findicons.com/files/icons/2181/34al_volume_3_2_se/24/001_06.png"
+                <img src="http://www.bibliotecapolicial.com.br/images/ico_enviar_email.png"
                      alt="Ícone">
             </button>
         </form>
