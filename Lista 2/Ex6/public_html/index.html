@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulário de Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Cadastro de Cliente</h1> 
+        <form name="cadastro" action="processar_req.php" method="POST">
+            <label>Nome<br></label><input type="text" id="nome" name="nome " required/><br/><br>
+            <label>Email<br></label><input name="email" id="email" type="email"  required/><br/><br/>
+            <label>Telefone<br></label><input type="tel" id="tel" name="tel" maxlength="14"><br/><br/>
+            <label>Site<br></label><input type="url" id="site" name="site" required/><br/><br/>
+            <label>Endereço<br></label><input type="text" id="end" name="endereco" required/><br/><br/>
+            <label>CEP<br></label><input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}"/><br/><br/>
+            <button id="button_enviar" name="button" value="Enviar" type="submit">
+                <img src="http://www.bibliotecapolicial.com.br/images/ico_enviar_email.png"
+                     alt="Ícone">
+            </button>
+            <button id="button_voltar" name="button" value="Voltar" type="submit">
+                <img src="http://www.ferramak.com.br/images/ico-voltar.gif"
+                     alt="Ícone">
+            </button>
+        </form>
+    </body>
+</html>
