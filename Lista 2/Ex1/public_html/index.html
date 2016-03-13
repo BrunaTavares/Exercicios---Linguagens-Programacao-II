@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulário de Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <label>Nome:  <input type="text" name="nome " value="Nome Completo" required/><br/></label>
+            <label>Email:  <input name="email" type="email" value=""required/><br/></label>
+            <label>Endereço: <input type="text" name="endereco" value="Endereço com complemento" required/><br/></label>
+            <label>CEP: <input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}"/><br/></label>
+            <button name="buttonEnviar" value="Enviar" type="submit">
+                <img src="http://findicons.com/files/icons/2181/34al_volume_3_2_se/24/001_06.png"
+                     alt="Ícone">
+            </button>
+        </form>
+    </body>
+</html>
