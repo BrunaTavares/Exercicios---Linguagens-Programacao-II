@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Radio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p><b>Selecione o filme que você quer mais mais assistir em 2016?</b></p>
+        <form name="numeros" action="processar_req.php" method="POST">
+            <input type="radio" name="filme" value="bat_sup"/> Batman vs Superman <br>
+            <input type="radio" name="filme" value="guerra"/> Guerra Civil <br/>
+            <input type="radio" name="filme" value="warcraft" checked=""/> Warcraft <br/>
+            <input type="radio" name="filme" value="xmen"/> X-Men Apocalypse <br/>
+            <input type="radio" name="filme" value="startrek"/> Star Trek - Beyond <br/>
+            <input type="radio" name="filme" value="esquad"/> Esquadrão Suicida <br/>
+            <input type="radio" name="filme" value="gambit"/> Gambit <br/>
+            <input type="radio" name="filme" value="doutor"/> Doutor Estranho <br/>
+            <input type="radio" name="filme" value="animais"/> Animais Fantásticos e Onde Habitam <br/>
+            <input type="radio" name="filme" value="star"/> Star Wars - Rogue One <br/>
+            <input type="radio" name="filme" value="assassins"/> Assassin's Creed <br/><br>
+            <button name="buttonEnviar" value="Enviar" type="submit">
+                <img src="http://findicons.com/files/icons/1261/sticker_system/128/movie.png"
+                     alt="Ícone">
+            </button>
+        </form> 
+    </body>
+</html>
