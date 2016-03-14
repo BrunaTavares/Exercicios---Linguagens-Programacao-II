@@ -11,8 +11,15 @@ div{
     background-color: #CA3715;
     margin: auto;
     padding-left: 45%;
-
+    border-radius: 5%;
+    padding: 4%;
 }
+body{
+    margin: 0;
+    float: left;
+    margin-left: 45%;
+}
+
 #selecao{
     width: 25px;
     height: 25px;
@@ -23,4 +30,19 @@ div{
 }
 li{
     list-style: none;
+}
+label,h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color:white;
+}
+#quant{
+    width: 25px;
+}
+
+#botao{
+    width: 80px;
+    height: 60PX;  
+    position: relative;
+    margin-left: 45%;
 }
