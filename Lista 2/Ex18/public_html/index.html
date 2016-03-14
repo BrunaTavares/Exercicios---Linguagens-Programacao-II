@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Restaurante Prato Feito!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    </head>
+    <body background="imagens/background.jpg" >
+        <div>
+            <form action="processar_req.php" method="POST" name="formulario">
+
+                <h2>Dados Pessoais</h2>
+                <input type="text" id="nome" name="nome " placeholder="Nome" required/><br/><br>
+                <input type="text" id="sobrenome" name="sobrenome " placeholder="Sobrenome" required/><br/><br>
+                <input name="email" id="email" type="email" placeholder="Email" required/><br/><br/>
+                <input type="tel" id="tel" name="tel" placeholder="Telefone" maxlength="14"><br/><br/>
+                <input type="text" id="end" name="endereco" placeholder="Endereço" required/>
+                <input type="url" id="complemento" name="comple" placeholder="Complemento" required/><br/><br/>
+                <input name="CEP" id="CEP" placeholder="CEP" required pattern="\d{5}-?\d{3}"/><br/><br/>
+
+                <h2>Entrega</h2>
+                <ul>
+                    <li>
+                        <label>Spaguetti</label><br>
+                        <input id="selecao" type="checkbox" name="Spaguetti" value="ON"/>
+                        <img id="comida" src="imagens/spaguetti.jpg" alt=""/>
+                    </li>
+                    <li>
+                        <label>Caneloni</label><br>
+                        <input id="selecao" type="checkbox" name="Spaguetti" value="ON"/>
+                         <img id="comida" src="imagens/canelone.jpg" alt="Spaguetti"/><br>
+                    </li>
+                    <li>third</li>
+
+                </ul>
+
+
+                
+
+
+               
+
+                <button name="buttonEnviar" value="Enviar" type="submit">
+                    <img src="http://www.bibliotecapolicial.com.br/images/ico_enviar_email.png"
+                         alt="Ícone">
+                </button>
+            </form>
+        </div
+    </body>
+</html>
