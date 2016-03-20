@@ -1,0 +1,37 @@
+/*Link e Visited*/
+a:link{
+    color: blue;
+    
+}
+a:visited{
+    color: purple;
+}
+/*Disabled e Enabled*/
+input:disabled{
+    background-color: crimson;
+    
+}
+input:enabled{
+    background-color: green;
+    color: white;
+}
+/*Invalid*/
+#VI:invalid{
+    background-color: purple;
+}
+/*Valid*/
+#VI:valid{
+    background-color: orange;
+}
+/*in-range*/
+#inout:in-range{
+    background-color: pink;
+}
+/*out-of-range*/
+#inout:out-of-range{
+    background-color: yellow;
+}
+/*Empty*/
+li:empty{
+    background-color: black;
+}

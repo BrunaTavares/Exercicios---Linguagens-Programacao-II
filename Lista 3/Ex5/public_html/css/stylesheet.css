@@ -1,0 +1,11 @@
+a[href^="http://"]{
+    color: red;
+}
+
+a[href$=".png"]{
+    color:green;
+}
+
+a[href*="maua"]{
+    color: blue;
+}

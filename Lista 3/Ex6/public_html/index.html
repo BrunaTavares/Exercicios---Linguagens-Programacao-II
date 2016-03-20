@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pseudo Plus</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+    <body>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque vehicula sem sit amet velit tempor vestibulum. 
+                Donec vel egestas ipsum. Sed nec quam mollis, aliquet dolor vitae, 
+                vestibulum <a href="http://www.facebook.com">augue. Nullam eleifend cursus</a> ligula eu porttitor.
+                Sed laoreet tempor turpis, nec lobortis enim pellentesque id. 
+                Integer ullamcorper dolor pharetra mattis luctus. Etiam gravida iaculis est,
+                sed congue urna imperdiet id. Nunc sed purus ut leo egestas tempor.
+                Maecenas quis urna felis.<a href="images/bob.png" > Donec sollicitudin dolor at ante interdum gravida.</a>
+            </p>
+            <p> <a href="http://moodle.maua.br">Vestibulum ante ipsum primis</a> in faucibus orci luctus et ultrices posuere cubilia Curae;
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                <a href="http://www.maua.br">Donec at euismod eros,</a> id luctus odio. Nulla lacinia malesuada est a auctor. 
+                Vestibulum sed ipsum ac felis tempor molestie. Nunc malesuada nunc leo, 
+                sit amet imperdiet ante rhoncus eget. Nullam lectus metus, porttitor eget metus sit amet,
+                commodo scelerisque nunc. Morbi lorem ipsum, malesuada vitae consectetur sed,
+                pellentesque tincidunt nisi. Donec hendrerit risus nunc, vitae viverra neque efficitur eleifend.
+            </p>
+        </div>
+        <div>
+            <form name="cadastro" action="processar_req.php" method="POST">
+                Desabilitados
+                <<ul>
+                    <li></li>
+                    <li>second</li>
+                    <li>third</li>
+
+                </ul>
+
+                <label>Nome<br></label><input type="text" id="nome" name="nome " disabled/><br/><br>
+                <label>Email<br></label><input name="email" id="email" type="email"  disabled/><br/><br/>
+                <label>Telefone<br></label><input type="tel" id="tel" name="tel" maxlength="14" disabled><br/><br/>
+                Habilitados
+                <label>Site<br></label><input type="url" id="site" name="site" required/><br/><br/>
+                <label>Endereço<br></label><input type="text" id="end" name="endereco" required/><br/><br/>
+                <label>CEP<br></label><input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}"/><br/><br/>
+                Valid e Inavalid (min0 e max 10)<input type="number" id="VI" name="quant_spaguetti " min="0" max="10" value="0"/><br/><br>
+                In-range e Out-of-range(min0 e max 15)<input type="number" id="inout" name="quant_spaguetti " min="0" max="15" value="0"/><br/><br>
+            </form>
+        </div>
+    </body>
+</html>
