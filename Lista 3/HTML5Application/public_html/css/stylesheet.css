@@ -1,0 +1,30 @@
+/*Seletor universal*/
+*{
+    font-family: sans-serif;
+}
+h1{
+    color: aquamarine;
+}
+p{
+    color: gray;
+}
+/*Seletor adjacente*/
+p + p {
+    color: red;
+}
+
+a{  
+    background-color: #ff5d6a;
+}
+/*Seletor adjacente*/
+a+a{
+    background-color: #3f7fb9;
+}
+/*Seletor de filho direto*/
+body > a{
+    color: #f8c848;
+}
+/*Seletor geral de elemento irmão*/
+h1 ~ a{
+    color: #3333ff;
+}
