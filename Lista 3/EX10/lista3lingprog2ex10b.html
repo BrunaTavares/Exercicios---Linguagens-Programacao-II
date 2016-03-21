@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#teste1 {
+    border: 10px solid black;
+    padding: 55px;   
+    background: url("Koala.jpg");
+    background-repeat: no-repeat; 
+}
+
+#teste2 {
+    border: 10px solid black;
+    padding: 55px;  
+    background: url("Koala.jpg"); 
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  
+}
+
+#teste3 {
+    border: 10px solid black;
+    padding: 55px;  
+     background: url("Koala.jpg"); 
+    background-repeat: no-repeat;
+    background-origin: content-box;
+   
+}
+</style>
+</head>
+<body>
+
+<p>Sem background-origin (padding-box is default):</p>
+<div id="teste1">
+<p>TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE</p>
+</div>
+
+<p>Com background-origin: border-box:</p>
+<div id="teste2">
+<p>TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE</p>
+</div>
+
+<p>Com background-origin: content-box:</p>
+<div id="teste3">
+<p>TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE</p>
+</div>
+
+</body>
+</html>

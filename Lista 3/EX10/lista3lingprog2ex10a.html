@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#teste1 {
+    border: 10px dotted black;
+    padding: 55px;
+    background: green;
+}
+
+#teste2 {
+    border: 10px dotted black;
+    padding: 55px;
+    background: green;
+    background-clip: padding-box;
+}
+
+#teste3 {
+    border: 10px dotted black;
+    padding: 55px;
+    background: green;
+    background-clip: content-box;
+}
+</style>
+</head>
+<body>
+
+<p>Sem background-clip:</p>
+<div id="teste1">
+<p>TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE</p>
+</div>
+
+<p>Com background-clip: padding-box:</p>
+<div id="teste2">
+<p>TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE</p>
+</div>
+
+<p>Com background-clip: content-box:</p>
+<div id="teste3">
+<p>TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE</p>
+</div>
+
+</body>
+</html>
