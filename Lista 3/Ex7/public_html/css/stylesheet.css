@@ -1,0 +1,5 @@
+input:checked + span{
+    background:#2f9cc8;
+    width: 25px;
+    height: 25px;
+    }
