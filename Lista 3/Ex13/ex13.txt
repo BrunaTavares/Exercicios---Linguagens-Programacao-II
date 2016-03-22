@@ -1,3 +1,0 @@
-@font-face serve para se utilizar uma fonte que nao é ádrao de um computador. Se especifica a URL do local da fonte. 
-Para se utilizar uma fonte reconhecida por todos os navegadores , use o formato de aruvo dela como woff ou ttf/otf.
-ex no arquivo ex13.html
