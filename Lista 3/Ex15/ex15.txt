@@ -1,0 +1,1 @@
+list-style serve para formatar as propriedades de uma lista de maneira rapida , podendo alterar a imagem do marcador da lista e sua oposicao 
