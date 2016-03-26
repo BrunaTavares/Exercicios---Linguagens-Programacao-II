@@ -1,0 +1,54 @@
+ /*
+As transições servem para deixar o movimento mais suave, lento. Para fazer a transição
+precisa-se da propriedade CSS aqual você que adicionar o efeito e a duração dele.
+*/
+body{
+    background-color: azure;
+    position: absolute;
+}
+
+
+#div1{
+    width: 50px;
+    height: 50px;
+    background-color: #9933ff;
+    transition: transform 2s;
+}
+
+#div1:hover{
+    width: 50px;
+    height: 50px;
+    background-color: #9933ff;
+    transform: translate(50px,0px);
+}
+#div2{
+    background-color: #cc0066;
+    width: 50px;
+    height: 50px; 
+    transition: transform 2s;
+}
+#div2:hover{
+    transform: scale(3,3);
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#div3{
+    transition: transform 2s;
+}
+#div3:hover{
+    transform: rotate(45deg);
+}
+
+
+#div4{
+    background-color: #66ff66;
+    width: 50px;
+    height: 50px; 
+    transition: transform 2s;
+}
+#div4:hover{
+     transform: skew(20deg, 10deg);
+}
+

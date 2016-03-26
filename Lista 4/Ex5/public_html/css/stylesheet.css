@@ -1,0 +1,54 @@
+ /*
+As transições servem para deixar o movimento mais suave, lento. Para fazer a transição
+precisa-se da propriedade CSS aqual você que adicionar o efeito e a duração dele.
+*/
+body{
+    background-color: activecaption;
+    position: absolute;
+}
+
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    left:400px;
+    top:200px;    
+    position: absolute;
+    animation: roda 1s linear infinite;
+    
+    
+}
+@keyframes roda {
+    0%   {background: red;transform: rotate(0deg) translateX(200px);}
+    25%  {background: yellow;transform: rotate(90deg) translateX(200px);}
+    50%  {background: blue;transform: rotate(180deg) translateX(200px); }
+    75%  {background: green;transform:rotate(270deg) translateX(200px);}
+    100% {background: red; transform: rotate(360deg) translateX(200px);}
+}
+
+#div1:hover{
+    animation-play-state: paused;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    left: 400px;
+    top:200px;     
+    position: absolute;
+    animation: spin 5s linear infinite;
+    
+}
+@keyframes spin {
+    0%   {background: red;tranform:rotate(0deg);}
+    25%  {background: yellow;tranform:rotate(90deg);}
+    50%  {background: blue;tranform:rotate(180deg);}
+    75%  {background: green;tranform:rotate(270deg);}
+    100% {background: red;transform:rotate(360deg);}
+}
+
+img:hover{
+    -webkit-animation-play-state: paused;
+}
+
