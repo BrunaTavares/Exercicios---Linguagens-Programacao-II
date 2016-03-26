@@ -1,10 +1,8 @@
- /*
-As transições servem para deixar o movimento mais suave, lento. Para fazer a transição
-precisa-se da propriedade CSS aqual você que adicionar o efeito e a duração dele.
-*/
 body{
-    background-color: activecaption;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    background: #232526;
+    background: linear-gradient(to left, #000000 , #414345);
 }
 
 
@@ -16,8 +14,9 @@ body{
     top:200px;    
     position: absolute;
     animation: roda 1s linear infinite;
-    
-    
+    animation-direction: normal;
+
+
 }
 @keyframes roda {
     0%   {background: red;transform: rotate(0deg) translateX(200px);}
@@ -38,7 +37,7 @@ img {
     top:200px;     
     position: absolute;
     animation: spin 5s linear infinite;
-    
+
 }
 @keyframes spin {
     0%   {background: red;tranform:rotate(0deg);}
