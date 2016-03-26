@@ -1,0 +1,29 @@
+    /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/03/2016, 21:03:18
+    Author     : bruna
+*/
+body{
+    background-color: aliceblue;
+    position: absolute;
+}
+/*A a propriedade overflow quando tem o valor scroll e lhe é determinado um tamanho 
+fixo aparece uma bara de rolagem, quando o valor é hidden a barra de rolagem não aparece 
+então não é possível ler todo texto*/
+p{
+    width: 100px;
+    height: 100px;
+    overflow:scroll;
+}
+/*A propriedade clip corta a imagem absoluta no tamanho especificado da borda para dentro*/
+img{
+    width: 100px;
+    background-color: white;
+    clip: rect(2px,50px,50px,15px);
+    position: absolute;
+}
+
