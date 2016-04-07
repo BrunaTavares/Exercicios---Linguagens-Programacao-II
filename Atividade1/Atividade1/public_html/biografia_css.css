@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/03/2016, 15:30:21
+    Author     : bruna
+*/
+
+#pagina{
+    width: 50%;
+    margin: 4% 2% 3% 25%;
+    background-color: azure;
+    height: 100%;
+}
+#rodape{
+        float: left;
+        width: 100%;
+        background-color: azure;
+}
+
+.facebook{
+    background: url(img/facebook-icon.png) no-repeat;
+    width: 64px;
+    height: 64px;
+}
+.google{
+    background: url(img/google-icon.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    
+}
+.linkedin{
+    background: url(img/linkedin-icon.png) no-repeat;
+    width: 64px;
+    height: 64px;
+}
+.twitter{
+    background: url(img/twitte-icon.png) no-repeat;
+    width: 64px;
+    height: 64px;
+}
+#rodape a{
+    float: left;
+    height: 100px;
+}
+#direitos{
+       float: left;
+       width: 100%;
+       background-color: azure;
+}
