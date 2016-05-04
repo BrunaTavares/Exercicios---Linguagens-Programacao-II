@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/05/2016, 21:08:32
+    Author     : bruna
+*/
+body
+{
+     background-image: url(caderno.jpg);
+     background-repeat: round;
+} 
+.box {
+    background-color: #3d4543;
+    height: 242px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 78px;
+    left: 40%;
+}
+.display
+{
+    background-color:#222;
+    width:220px;
+    position:relative;
+    left:15px;
+    top:20px;
+    height:40px;
+}
+.display input {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 34px;
+    width: 215px;
+    color: black;
+    background-color: #bccd95;
+    font-size: 21px;
+    text-align: right;
+}
+keys
+{
+    position:relative;
+    top:15px;
+}
+.button
+{
+    width:40px;
+    height:30px;
+    border:none;
+    border-radius:8px;
+    margin-left:17px;
+    cursor:pointer;
+    border-top:2px solid transparent;
+}
+.button.blue
+{
+    color:white;
+    background-color:#0066ff;
+    border-bottom:black 2px solid;
+    border-top:2px #6f6f6f solid;
+}
+.button.pink
+{
+    color:white;
+    background-color:#ff4561;
+    border-bottom:black 2px solid;
+}
+.button.orange
+{
+    color:white;
+    background-color:#ff6633;
+    border-bottom:black 2px solid;
+    border-top:2px #303030 solid;
+}
+.button.black
+{
+    color:black;
+    background-color:#FF9933;
+    border-bottom:black 2px solid;
+    border-top:2px #FF9933 solid;
+}
+.blue:active
+{
+    border-top:black 2px solid;
+    border-bottom:2px #6f6f6f solid;
+}
+.pink:active
+{
+    border-top:black 2px solid;
+    border-bottom:#ff4561 2px solid;
+}
+.orange:active
+{
+    border-top:black 2px solid;
+    border-bottom:#303030 2px solid;
+}
+.black:active
+{
+    border-top:black 2px solid;
+    border-bottom:#FF9933 2px solid;
+}
+p {
+    line-height: 10px;
+    height: 13px;
+    padding-top: 7px;
+}

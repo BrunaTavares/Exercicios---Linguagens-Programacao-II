@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/05/2016, 20:02:21
+    Author     : bruna
+*/
+
+#ola{
+    font-family: sans-serif;
+    background-color: black;
+    color: red;
+    width: 90%;
+    height: 61%;
+    border: lightgrey double;
+    margin-left: 2px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+#borda{
+    background-color: #3d4543;
+    height: 27px;
+    width: 92px;
+    border-radius: 3px;
+    position: relative;
+    top: 10px;
+}

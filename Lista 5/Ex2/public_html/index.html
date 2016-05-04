@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="display">
+                <input type="text" readonly size="18" id="display">
+            </div>
+            <div class="keys">
+                <p>
+                    <input type="button" class="button orange" value="7" onclick='add("7")'>
+                    <input type="button" class="button orange" value="8" onclick='add("8")'>
+                    <input type="button" class="button orange" value="9" onclick='add("9")'>
+                    <input type="button" class="button pink"  value="+" onclick='add("+")'>
+                </p>
+                <p>
+                    <input type="button" class="button orange" value="4" onclick='add("4")'>
+                    <input type="button" class="button orange" value="5" onclick='add("5")'>
+                    <input type="button" class="button orange" value="6" onclick='add("6")'>
+                    <input type="button" class="button pink"  value="-" onclick='add("-")'>
+                </p>
+                <p>
+                    <input type="button" class="button orange" value="1" onclick='add("1")'>
+                    <input type="button" class="button orange" value="2" onclick='add("2")'>
+                    <input type="button" class="button orange" value="3" onclick='add("3")'>
+                    <input type="button" class="button pink"  value="%" onclick='add("/")'>
+                </p>
+                <p>
+                    <input type="button" class="button orange"  value="0" onclick='add("0")'>
+                    <input type="button" class="button orange"  value="." onclick='add(".")'>
+                    <input type="button" class="button blue" value="=" onclick='equal()'>
+                    <input type="button" class="button pink"   value="x" onclick='add("*")'>
+                </p>
+                <p>
+                    <input type="button" class="button blue"  value="("   onclick='add("(")'>
+                    <input type="button" class="button blue"  value=")"   onclick='add(")")'>
+                    <input type="button" class="button blue"  value="<--" onclick='backspace()'>
+                    <input type="button" class="button blue" value="C"   onclick='clean("")'>
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="javascript.js"></script>
+       
+    </body>
+</html>
