@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login de usuário</title>
+</head>
+<body>
+	<!-- Se houver alguma mensagem de erro de login, está será exibida aqui -->
+	<% if (message.length > 0) { %>
+    	<div> <%= message %> </div>
+    	<div> Ainda não possui uma conta? <a href="/criar_conta">Criar uma nova conta</a> </div>
+	<% } %>
+	<!-- Form de login -->
+	<form action="/login" method="post">
+	    <div>
+	        <label>Nome de usuário</label>
+	        <!-- Entrada do nome de usuário -->
+	        <input type="text" name="nome_usuario">
+	    </div>
+	    <div>
+	    	<!-- Entrada da senha de usuário -->
+	        <label>Senha</label>
+	        <input type="password" name="senha">
+	    </div>
+	    <div>
+	        <label>Lembrar</label>
+	        <!-- Opção para lembrar a sessão, mesmo que o navegador seja fechado -->
+	        <input type="checkbox" name="lembrar" value="sim">
+	    </div>
+	
+	    <button type="submit">Executar login</button>
+	</form>	
+	
+</body>
+</html>

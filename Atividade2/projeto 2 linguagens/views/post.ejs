@@ -1,0 +1,16 @@
+<% include header %> 
+	<div class="cards">
+	<% if (data.length) { %> 
+	<% data.forEach( function(entry) { %>
+	<a class="card" href="#">
+		<div class="card-title"><%= entry.title %></div>
+		<div class="card-summary"><%= entry.content %></div>
+		<div class="card-meta" >Postado por: <%= entry.user %> Em: <%= entry.published %></div>
+	</a>
+	
+	<% }) %> <% } else { %> 
+		Não há entradas!
+		<a href="/new-entry">Adicionar entrada</a>
+	<% } %> 
+	</div>
+<% include footer %>

@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/05/2016, 19:43:42
+    Author     : bruna
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    
+}
+#cidade{
+    position: relative;
+    margin-left: 41%;
+}
+.box{
+    position: relative;
+    width: 12%;
+    float: left;
+    margin: 10px;
+    height: 213px;
+    
+}
+
+.dia{
+    float: left;
+    margin-left: 21%;
+    margin-top: 5%;
+}
+
+.imagem{
+     float: left;
+    margin-left: 21%;
+    margin-top: 5%;
+    margin-right: 26%;
+}
+.descricao{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 12%;
+    left: 8%;
+    position: relative;
+}
+.tmpmax{
+    float: left;
+    margin-left: 21%;
+    margin-top: 1%;
+}
+
+.tmpmin{
+     float: left;
+     margin-left: 21%;
+     margin-top: 1%;
+}

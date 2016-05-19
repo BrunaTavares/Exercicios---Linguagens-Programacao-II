@@ -6,15 +6,40 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title></title>
+        <title>Credcard Check</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <div>
-            <input type="text">
+            <input type="text" name="numero" id="numero_cartao" placeholder="Digite o número do cartão" onkeyup="validar('numero_cartao')" required="">
+            <p id="mensagem"></p>
+            <div class="card">
+                <div class="bank-name" title="BestBank">BestBank</div>
+                <div class="chip">
+                    <div class="side left"></div>
+                    <div class="side right"></div>
+                    <div class="vertical top"></div>
+                    <div class="vertical bottom"></div>
+                </div>
+                <div class="data">
+                    <div class="pan" id="label_numero" title="number">0000 0000 0000 0000</div>
+                    <div class="first-digits" id="primeiros_digitos"></div>
+                    <div class="exp-date-wrapper">
+                        <div class="left-label">EXPIRES END</div>
+                        <div class="exp-date">
+                            <div class="upper-labels">MONTH/YEAR</div>
+                            <div class="date" title="01/17">01/20</div>
+                        </div>
+                    </div>
+                    <div class="name-on-card" title="John Doe">Marco Furlan</div>
+                    <img src="" id="img" alt="" hidden/>
+                </div>
+                <div class="lines-down"></div>
+                <div class="lines-up"></div>
+            </div>
         </div>
-        <script type="text/javascript" src="javascript.js"></script>
+        <script type="text/javascript" src="javascript/check.js"></script>
     </body>
 </html>
